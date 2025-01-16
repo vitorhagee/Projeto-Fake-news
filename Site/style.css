@@ -1,0 +1,94 @@
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #e9eff1; /* Azul claro similar ao fundo do Facebook */
+    color: #333;
+}
+
+header {
+    background-color: #3b5998; /* Azul Facebook */
+    color: #fff;
+    padding: 10px 0; /* Cabeçalho mais fino */
+    display: flex;
+    justify-content: space-between; /* Alinha o título à esquerda e menu à direita */
+    align-items: center; /* Alinha verticalmente */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-family: 'Helvetica Neue', sans-serif; /* Fonte similar à do Facebook */
+    font-size: 2.5rem; /* Tamanho maior do título */
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+nav {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff; /* Cor dos links em branco para contraste */
+    text-decoration: none;
+    margin: 0 1.5rem;
+    font-size: 1.2rem; /* Tamanho da fonte */
+    padding: 12px 20px; /* Tamanho dos botões */
+    border-radius: 30px; /* Botões arredondados */
+    background-color: #3b5998; /* Azul igual ao fundo */
+    border: 2px solid transparent; /* Inicialmente sem borda visível */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Borda com sombra para profundidade */
+    transition: background-color 0.3s, transform 0.3s, border-color 0.3s; /* Transições suaves */
+}
+
+/* Efeito hover nos botões */
+nav a:hover {
+    background-color: #4e70b5; /* Cor mais clara para destacar */
+    border-color: #005bb5; /* Borda mais escura para destaque */
+    color: #fff;
+    transform: translateY(-4px); /* Efeito de elevação mais forte */
+}
+
+/* Container principal */
+.container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.post {
+    margin-bottom: 2rem;
+}
+
+.post h2 {
+    color: #3b5998; /* Azul Facebook para os títulos */
+    margin-bottom: 0.5rem;
+}
+
+.post p {
+    margin-bottom: 1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #3b5998; /* Azul Facebook no rodapé */
+    color: #fff;
+    margin-top: 2rem;
+}
+
+/* Estilo para as imagens */
+.image-section {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.image-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
